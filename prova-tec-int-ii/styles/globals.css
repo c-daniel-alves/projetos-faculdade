@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'coolvetica';
+    src: url('../../fonte/scoolvetica_rg-webfont.woff2') format('woff2'),
+         url('../../fontes/coolvetica_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background: #EFEFEF;
+    font-family: 'coolvetica';
+    
+}

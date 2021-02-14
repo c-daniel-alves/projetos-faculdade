@@ -1,0 +1,51 @@
+
+.menu ul li {
+    display: inline-block;
+    padding-left: -50px;
+    font-size: 40px;
+    position: relative; 
+    top: 550px; margin: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+a:hover {
+    background: #EFEFEF;
+    transition: 0.7s;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    max-height: 500px;
+    
+}
+#footer {
+    background: #FAB919;
+    height: 440px;
+    display: flex;
+}
+#container img{
+    position: relative; top: 160px; left:20px;
+}
+#container h1{
+    position: relative; top: -330px; left:680px;
+    font-size: 80px;
+}
+#container h2{
+    position: relative; top: -330px; left:684px;
+    font-size: 35px;
+  
+}
+#container button{
+   
+    background-color: white;
+    position:relative; left: -20px; top: 10px;
+    font-size: 20px;
+}
+#container button:hover{
+    background: #FAB919;
+    transition: 0.5s;
+
+}
